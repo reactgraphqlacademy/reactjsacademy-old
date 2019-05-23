@@ -4,8 +4,8 @@
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "redirects": [
       {
-        "source": "{,/}",
-        "destination": "https://reactgraphql.academy/",
+        "source": "/",
+        "destination": "https://reactgraphql.academy",
         "type": 301
       },
       {
@@ -144,11 +144,6 @@
         "type": 301
       },
       {
-        "source": "/blog/react-is-all-about-composition-react-hooks-render-props-hocs{,/}",
-        "destination": "https://reactgraphql.academy/react/react-is-all-about-composition-react-hooks-render-props-hocs/",
-        "type": 301
-      },
-      {
         "source": "/blog/top-10-reasons-to-learn-react{,/}",
         "destination": "https://reactgraphql.academy/react/top-10-reasons-to-learn-react/",
         "type": 301
@@ -195,24 +190,24 @@
       },
       {
         "source": "/blog/whats-the-difference-between-react-and-react-native{,/}",
-        "destination": "https://reactgraphql.academy/blog/whats-the-difference-between-react-and-react-native/",
+        "destination": "https://reactgraphql.academy/react/whats-the-difference-between-react-and-react-native/",
         "type": 301
       },
       {
         "source": "/blog/leanjs-react-amsterdam{,/}",
-        "destination": "https://reactgraphql.academy/blog/leanjs-react-amsterdam/",
+        "destination": "https://reactgraphql.academy/react/leanjs-react-amsterdam/",
         "type": 301
       },
       {
         "source": "/blog/the-perfect-react-bootcamp-student{,/}",
-        "destination": "https://reactgraphql.academy/blog/the-perfect-react-bootcamp-student/",
+        "destination": "https://reactgraphql.academy/blog/are-you-the-perfect-react-graphql-student/",
         "type": 301
       },
       {
         "source": "/blog/learn-react-the-fast-way{,/}",
-        "destination": "https://reactgraphql.academy/blog/learn-react-the-fast-way/",
+        "destination": "https://reactgraphql.academy/react/learn-react-the-fast-way/",
         "type": 301
-      }
+      },
       {
         "source": "/curriculum?tab=Part-time&section=session1{,/}",
         "destination": "https://reactgraphql.academy/react/curriculum?tab=Part-time&section=session1",
@@ -244,7 +239,7 @@
         "type": 301
       },
       {
-      "source": "/curriculum?tab=Part-time&section=session7{,/}",
+        "source": "/curriculum?tab=Part-time&section=session7{,/}",
         "destination": "https://reactgraphql.academy/react/curriculum?tab=Part-time&section=session7",
         "type": 301
       },
@@ -285,7 +280,7 @@
       },
       {
         "source": "/curriculum?tab=React+Native{,/}",
-        "destination": "https://reactgraphql.academy/react/training/workshops/",
+        "destination": "https://reactgraphql.academy/react/training/workshops/react-native/",
         "type": 301
       },
       {
@@ -370,6 +365,11 @@
       },
       {
         "source": "/graphql-bootcamp/?utm_medium=direct&utm_source=blog&utm_campaign=graphql_exp&utm_content=graphql_announcement{,/}",
+        "destination": "https://reactgraphql.academy/graphql/announcing-our-new-graphql-bootcamp/",
+        "type": 301
+      },
+      {
+        "source": "/graphql-bootcamp{,/}",
         "destination": "https://reactgraphql.academy/graphql/announcing-our-new-graphql-bootcamp/",
         "type": 301
       },
@@ -482,7 +482,7 @@
         "source": "/community/#meetups{,/}",
         "destination": "https://reactgraphql.academy/community/meetups",
         "type": 301
-      },
+      }
     ]
   }
 }
