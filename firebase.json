@@ -4,10 +4,485 @@
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "redirects": [
       {
-        "source": "/",
+        "source": "{,/}",
         "destination": "https://reactgraphql.academy/",
         "type": 301
+      },
+      {
+        "source": "/curriculum{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum/",
+        "type": 301
+      },
+      {
+        "source": "/react-redux-graphql-bootcamp{,/}",
+        "destination": "https://reactgraphql.academy/react/training/bootcamp/",
+        "type": 301
+      },
+      {
+        "source": "/community{,/}",
+        "destination": "https://reactgraphql.academy/community/",
+        "type": 301
+      },
+      {
+        "source": "/about-us{,/}",
+        "destination": "https://reactgraphql.academy/about-us/",
+        "type": 301
+      },
+      {
+        "source": "/blog{,/}",
+        "destination": "https://reactgraphql.academy/blog/",
+        "type": 301
+      },
+      {
+        "source": "/corporate-team-training{,/}",
+        "destination": "https://reactgraphql.academy/react/training/corporate/",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=React+Bootcamp&section=day1{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=React+Bootcamp&section=day1",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=React+Bootcamp&section=day2{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=React+Bootcamp&section=day2",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=React+Bootcamp&section=day3{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=React+Bootcamp&section=day3",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=React+Bootcamp&section=day4{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=React+Bootcamp&section=day4",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=React+Bootcamp&section=day5{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=React+Bootcamp&section=day5",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=React+Bootcamp&section=day6{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=React+Bootcamp&section=day6",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=React+Bootcamp&section=day7{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=React+Bootcamp&section=day7",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=React+Bootcamp{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=React+Bootcamp",
+        "type": 301
+      },
+      {
+        "source": "/react-redux-graphql-part-time-course{,/}",
+        "destination": "https://reactgraphql.academy/react/training/part-time-course/",
+        "type": 301
+      },
+      {
+        "source": "/privacy-policy{,/}",
+        "destination": "https://reactgraphql.academy/privacy-policy/",
+        "type": 301
+      },
+      {
+        "source": "/unsubscribe{,/}",
+        "destination": "https://reactgraphql.academy/unsubscribe/",
+        "type": 301
+      },
+      {
+        "source": "/about-us#corporate-team-training{,/}",
+        "destination": "https://reactgraphql.academy/graphql/training/corporate/",
+        "type": 301
+      },
+      {
+        "source": "/react-native-bootcamp{,/}",
+        "destination": "https://reactgraphql.academy/react/training/workshops/react-native/",
+        "type": 301
+      },
+      {
+        "source": "/react-redux-graphql-training{,/}",
+        "destination": "https://reactgraphql.academy/react-redux-graphql-training/",
+        "type": 301
+      },
+      {
+        "source": "/terms-of-service{,/}",
+        "destination": "https://reactgraphql.academy/terms-of-service/",
+        "type": 301
+      },
+      {
+        "source": "/code-of-conduct{,/}",
+        "destination": "https://reactgraphql.academy/code-of-conduct/",
+        "type": 301
+      },
+      {
+        "source": "/advanced-react-redux-graphql-bootcamp{,/}",
+        "destination": "https://reactgraphql.academy/react/training/advanced/",
+        "type": 301
+      },
+      {
+        "source": "/blog/announcing-our-new-graphql-bootcamp{,/}",
+        "destination": "https://reactgraphql.academy/graphql/announcing-our-new-graphql-bootcamp/",
+        "type": 301
+      },
+      {
+        "source": "/blog/5-reasons-why-advanced-dev-training-will-keep-your-company-tech-relevant{,/}",
+        "destination": "https://reactgraphql.academy/blog/5-reasons-why-advanced-dev-training-will-keep-your-company-tech-relevant/",
+        "type": 301
+      },
+      {
+        "source": "/blog/what-is-GraphQL-used-for{,/}",
+        "destination": "https://reactgraphql.academy/graphql/what-is-GraphQL-used-for/",
+        "type": 301
+      },
+      {
+        "source": "/blog/react-is-all-about-composition-react-hooks-render-props-hocs{,/}",
+        "destination": "https://reactgraphql.academy/react/react-is-all-about-composition-react-hooks-render-props-hocs/",
+        "type": 301
+      },
+      {
+        "source": "/blog/react-is-all-about-composition-react-hooks-render-props-hocs{,/}",
+        "destination": "https://reactgraphql.academy/react/react-is-all-about-composition-react-hooks-render-props-hocs/",
+        "type": 301
+      },
+      {
+        "source": "/blog/top-10-reasons-to-learn-react{,/}",
+        "destination": "https://reactgraphql.academy/react/top-10-reasons-to-learn-react/",
+        "type": 301
+      },
+      {
+        "source": "/blog/server-side-rendering-ssr-made-easy-react{,/}",
+        "destination": "https://reactgraphql.academy/react/server-side-rendering-ssr-made-easy-react/",
+        "type": 301
+      },
+      {
+        "source": "/blog/unit-testing-fundamentals-explained-using-javascript{,/}",
+        "destination": "https://reactgraphql.academy/react/unit-testing-fundamentals-explained-using-javascript/",
+        "type": 301
+      },
+      {
+        "source": "/blog/must-know-javascript-for-react-developers{,/}",
+        "destination": "https://reactgraphql.academy/react/must-know-javascript-for-react-developers/",
+        "type": 301
+      },
+      {
+        "source": "/blog/introduction-to-redux-explained-with-simple-examples{,/}",
+        "destination": "https://reactgraphql.academy/react/introduction-to-redux-explained-with-simple-examples/",
+        "type": 301
+      },
+      {
+        "source": "/blog/styling-in-react{,/}",
+        "destination": "https://reactgraphql.academy/react/styling-in-react/",
+        "type": 301
+      },
+      {
+        "source": "/blog/react-forms-controlled-and-uncontrolled-components{,/}",
+        "destination": "https://reactgraphql.academy/react/react-forms-controlled-and-uncontrolled-components/",
+        "type": 301
+      },
+      {
+        "source": "/blog/secure-react-apps-using-JWT-and-react-router{,/}",
+        "destination": "https://reactgraphql.academy/react/secure-react-apps-using-JWT-and-react-router/",
+        "type": 301
+      },
+      {
+        "source": "/blog/introduction-to-thinking-in-react{,/}",
+        "destination": "https://reactgraphql.academy/react/introduction-to-thinking-in-react/",
+        "type": 301
+      },
+      {
+        "source": "/blog/whats-the-difference-between-react-and-react-native{,/}",
+        "destination": "https://reactgraphql.academy/blog/whats-the-difference-between-react-and-react-native/",
+        "type": 301
+      },
+      {
+        "source": "/blog/leanjs-react-amsterdam{,/}",
+        "destination": "https://reactgraphql.academy/blog/leanjs-react-amsterdam/",
+        "type": 301
+      },
+      {
+        "source": "/blog/the-perfect-react-bootcamp-student{,/}",
+        "destination": "https://reactgraphql.academy/blog/the-perfect-react-bootcamp-student/",
+        "type": 301
+      },
+      {
+        "source": "/blog/learn-react-the-fast-way{,/}",
+        "destination": "https://reactgraphql.academy/blog/learn-react-the-fast-way/",
+        "type": 301
       }
+      {
+        "source": "/curriculum?tab=Part-time&section=session1{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=Part-time&section=session1",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=Part-time&section=session2{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=Part-time&section=session2",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=Part-time&section=session3{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=Part-time&section=session3",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=Part-time&section=session4{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=Part-time&section=session4",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=Part-time&section=session5{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=Part-time&section=session5",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=Part-time&section=session6{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=Part-time&section=session6",
+        "type": 301
+      },
+      {
+      "source": "/curriculum?tab=Part-time&section=session7{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=Part-time&section=session7",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=Part-time&section=session8{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=Part-time&section=session8",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=Part-time&section=session9{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=Part-time&section=session9",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=Part-time&section=session10{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=Part-time&section=session10",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=Part-time{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=Part-time",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=React+Native&section=day1{,/}",
+        "destination": "https://reactgraphql.academy/react/training/workshops/",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=React+Native&section=day2{,/}",
+        "destination": "https://reactgraphql.academy/react/training/workshops/",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=React+Native&section=day3{,/}",
+        "destination": "https://reactgraphql.academy/react/training/workshops/",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=React+Native{,/}",
+        "destination": "https://reactgraphql.academy/react/training/workshops/",
+        "type": 301
+      },
+      {
+        "source": "/react-redux-graphql-bootcamp-austin{,/}",
+        "destination": "https://reactgraphql.academy/react-redux-graphql-bootcamp-austin/",
+        "type": 301
+      },
+      {
+        "source": "/react-redux-graphql-bootcamp-lisbon{,/}",
+        "destination": "https://reactgraphql.academy/react/training/bootcamp/lisbon/",
+        "type": 301
+      },
+      {
+        "source": "/react-redux-graphql-bootcamp-nyc{,/}",
+        "destination": "https://reactgraphql.academy/react-redux-graphql-bootcamp-nyc/",
+        "type": 301
+      },
+      {
+        "source": "/react-redux-training-amsterdam{,/}",
+        "destination": "https://reactgraphql.academy/react/training/part-time-course/amsterdam/",
+        "type": 301
+      },
+      {
+        "source": "/react-redux-training-barcelona{,/}",
+        "destination": "https://reactgraphql.academy/react-redux-training-barcelona/",
+        "type": 301
+      },
+      {
+        "source": "/react-redux-training-berlin{,/}",
+        "destination": "https://reactgraphql.academy/react-redux-training-berlin/",
+        "type": 301
+      },
+      {
+        "source": "/react-redux-training-brussels{,/}",
+        "destination": "https://reactgraphql.academy/react-redux-training-brussels/",
+        "type": 301
+      },
+      {
+        "source": "/react-redux-training-paris{,/}",
+        "destination": "https://reactgraphql.academy/react-redux-training-paris/",
+        "type": 301
+      },
+      {
+        "source": "/react-redux-training-sydney{,/}",
+        "destination": "https://reactgraphql.academy/react-redux-training-sydney/",
+        "type": 301
+      },
+      {
+        "source": "/full-stack-js-react-graphql-node-mongo-bootcamp{,/}",
+        "destination": "https://reactgraphql.academy/react/training/",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=Advanced+React&section=day1{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=Advanced+React&section=day1",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=Advanced+React&section=day2{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=Advanced+React&section=day2",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=Advanced+React&section=day3{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=Advanced+React&section=day3",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=Advanced+React{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=Advanced+React",
+        "type": 301
+      },
+      {
+        "source": "/about-us#richard-moss{,/}",
+        "destination": "https://reactgraphql.academy/about-us#richard-moss",
+        "type": 301
+      },
+      {
+        "source": "/about-us#richard-moss{,/}",
+        "destination": "https://reactgraphql.academy/about-us#richard-moss",
+        "type": 301
+      },
+      {
+        "source": "/graphql-bootcamp/?utm_medium=direct&utm_source=blog&utm_campaign=graphql_exp&utm_content=graphql_announcement{,/}",
+        "destination": "https://reactgraphql.academy/graphql/announcing-our-new-graphql-bootcamp/",
+        "type": 301
+      },
+      {
+        "source": "/graphql-bootcamp/#contact-us{,/}",
+        "destination": "https://reactgraphql.academy/graphql/training/bootcamp/",
+        "type": 301
+      },
+      {
+        "source": "/about-us#alex-lobera{,/}",
+        "destination": "https://reactgraphql.academy/about-us#alex-lobera",
+        "type": 301
+      },
+      {
+        "source": "/graphql-bootcamp/?utm_medium=direct&utm_source=blog&utm_campaign=graphql_exp{,/}",
+        "destination": "https://reactgraphql.academy/graphql/training/bootcamp/",
+        "type": 301
+      },
+      {
+        "source": "/blog/unit-testing-fundamentals-explained-using-javascript#pure-functions{,/}",
+        "destination": "https://reactgraphql.academy/react/unit-testing-fundamentals-explained-using-javascript/",
+        "type": 301
+      },
+      {
+        "source": "/blog/unit-testing-fundamentals-explained-using-javascript#coupling{,/}",
+        "destination": "https://reactgraphql.academy/react/unit-testing-fundamentals-explained-using-javascript/",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=React%20Bootcamp&section=day1{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=React+Bootcamp&section=day1",
+        "type": 301
+      },
+      {
+        "source": "/about-us#horacio-herrera{,/}",
+        "destination": "https://reactgraphql.academy/about-us#horacio-herrera",
+        "type": 301
+      },
+      {
+        "source": "/about-us/#horacio-herrera{,/}",
+        "destination": "https://reactgraphql.academy/about-us#horacio-herrera",
+        "type": 301
+      },
+      {
+        "source": "/blog/react-is-all-about-composition-react-hooks-render-props-hocs{,/}",
+        "destination": "https://reactgraphql.academy/react/react-is-all-about-composition-react-hooks-render-props-hocs/",
+        "type": 301
+      },
+      {
+        "source": "/blog/secure-react-apps-using-JWT-and-react-router#authentication-vs-authorization{,/}",
+        "destination": "https://reactgraphql.academy/react/secure-react-apps-using-JWT-and-react-router/",
+        "type": 301
+      },
+      {
+        "source": "/blog/secure-react-apps-using-JWT-and-react-router#jwt{,/}",
+        "destination": "https://reactgraphql.academy/react/secure-react-apps-using-JWT-and-react-router/",
+        "type": 301
+      },
+      {
+        "source": "/curriculum/?tab=advanced-react{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=Advanced+React",
+        "type": 301
+      },
+      {
+        "source": "/curriculum/?tab=bootcamp{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=React+Bootcamp",
+        "type": 301
+      },
+      {
+        "source": "/blog/unit-testing-fundamentals-explained-using-javascript/#coupling{,/}",
+        "destination": "https://reactgraphql.academy/react/unit-testing-fundamentals-explained-using-javascript/",
+        "type": 301
+      },
+      {
+        "source": "/blog/react-forms-controlled-and-uncontrolled-components/#form-library{,/}",
+        "destination": "https://reactgraphql.academy/react/react-forms-controlled-and-uncontrolled-components/",
+        "type": 301
+      },
+      {
+        "source": "/curriculum?tab=React%20bootcamp&section=day3{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum?tab=React+Bootcamp&section=day3",
+        "type": 301
+      },
+      {
+        "source": "/blog/styling-in-react/#components-everywhere{,/}",
+        "destination": "https://reactgraphql.academy/react/styling-in-react/",
+        "type": 301
+      },
+      {
+        "source": "/react-redux-graphql-bootamp-austin{,/}",
+        "destination": "https://reactgraphql.academy/react-redux-graphql-bootcamp-austin/",
+        "type": 301
+      },
+      {
+        "source": "/curriculum{,/}",
+        "destination": "https://reactgraphql.academy/react/curriculum/",
+        "type": 301
+      },
+      {
+        "source": "/about-us#will-voelcker{,/}",
+        "destination": "https://reactgraphql.academy/about-us#will-voelcker",
+        "type": 301
+      },
+      {
+        "source": "/about-us#roy-derks{,/}",
+        "destination": "https://reactgraphql.academy/about-us#roy-derks",
+        "type": 301
+      },
+      {
+        "source": "/community/#meetups{,/}",
+        "destination": "https://reactgraphql.academy/community/meetups",
+        "type": 301
+      },
     ]
   }
 }
