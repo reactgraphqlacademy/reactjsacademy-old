@@ -484,6 +484,11 @@
         "type": 301
       },
       {
+        "source": "/react-workshops{,/}",
+        "destination": "https://reactgraphql.academy/react/training/workshops/",
+        "type": 301
+      },
+      {
         "source": "**",
         "destination": "https://reactgraphql.academy/",
         "type": 301
