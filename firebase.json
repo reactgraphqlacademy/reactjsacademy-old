@@ -29,6 +29,16 @@
         "type": 301
       },
       {
+        "source": "/react-redux-graphql-bootcamp-london{,/}",
+        "destination": "https://reactgraphql.academy/react/training/bootcamp/london",
+        "type": 301
+      },
+      {
+        "source": "/react-redux-training-london{,/}",
+        "destination": "https://reactgraphql.academy/react/training/part-time-course/london",
+        "type": 301
+      },
+      {
         "source": "/blog{,/}",
         "destination": "https://reactgraphql.academy/blog/",
         "type": 301
